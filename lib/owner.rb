@@ -70,7 +70,7 @@ class Owner
       animal_array.each do |animal|
         animal.mood = "nervous"
       end
+      animal_array.clear
     end
-    
   end
 end
