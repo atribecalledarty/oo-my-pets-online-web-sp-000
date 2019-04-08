@@ -75,6 +75,10 @@ class Owner
   end
   
   def list_pets
-    
+    no_fish = @pets[:fishes].length
+    no_dogs = @pets[:dogs].length
+    no_cats = @pets[:cats].length
+    string = "I have "
+
   end
 end
